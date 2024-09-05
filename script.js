@@ -17,9 +17,11 @@ const makeChange = (c) => {
 	else if (c >= 5 && c < 10) {
 		obj.n = Math.floor(c / 5);
 		c = Math.floor(c % 5);
+		
 	}else if (c >= 1 && c < 5) {
-		obj.p = Math.floor( c / 1);
+		obj.p =  c ;
 	}
+	
 	console.log(obj);
 	return obj
 };
